@@ -1,8 +1,9 @@
-+++
-title = 'Test'
-date: 2023-12-02T14:51:49+09:00
-tags: []
-categories: []
-author: "DDWU ACC"
-mathjax: true
-+++
+---
+title: "test"
+date: 2023-12-02T17:15:52+09:00
+tags: ["test"]
+categories: ["test"]
+author: "Yubin Kim"
+---
+
+test
