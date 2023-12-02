@@ -6,4 +6,4 @@ categories: ["test"]
 author: "Yubin Kim"
 ---
 
-한 3년 만에 새로운 노트북을 주문했습니다.  
+테스트
