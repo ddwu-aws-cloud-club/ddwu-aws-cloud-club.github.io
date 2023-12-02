@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ddwu-aws-cloud-club.github.io/sitemap.xml

@@ -15,7 +15,7 @@ pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = true     # has chinese/japanese/korean 
 paginate = 10
-disqusShortname = ""      # disqus_shortnameå
+disqusShortname = ""      # disqus_shortname
 
 [author]
 name = "DDWU AWS Cloud Club"

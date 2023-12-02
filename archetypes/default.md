@@ -1,5 +1,8 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = {{ .Date }}
-draft = true
+date: {{ .Date }}
+tags: []
+categories: []
+author: "DDWU ACC"
+mathjax: true
 +++
