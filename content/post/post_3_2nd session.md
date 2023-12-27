@@ -2,7 +2,7 @@
 title: "2nd Session: Core Session"
 date: "2023-12-23"
 author: "Yubin Kim"
-tags: [""]
+tags: ["IaC", "Automating Architecture"]
 categories: ["Core Session"]
 ---
 
