@@ -6,8 +6,6 @@ tags: ["프로젝트"]
 categories: ["Final Project"]
 ---
 
-# Final Project A: 콘서트 예약 프로그램
-
 ## 1️⃣ 프로젝트 아키텍처
 
 ---
