@@ -14,10 +14,12 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = true     # has chinese/japanese/korean 
-paginate = 10
 disqusShortname = ""      # disqus_shortname
 
-[author]
+[pagination]
+pagerSize = 10
+
+[params.author]
 name = "DDWU AWS Cloud Club"
 
 [sitemap]
@@ -124,16 +126,16 @@ css = ["css/tailwind.css", "css/style.css"]
     warn = 180              # Display warning if the last modified time is more than these days ago.
 
   [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
-    clientId = ""           # Your client ID
-    clientSecret = ""       # Your client secret
+    owner = ""
+    repo = ""
+    clientId = ""
+    clientSecret = ""
 
   [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-    owner = ""              # Your GitHub ID
-    repo = ""               # The repo to store comments
-    clientId = ""           # Your client ID
-    clientSecret = ""       # Your client secret
+    owner = ""
+    repo = ""
+    clientId = ""
+    clientSecret = ""
 
   [params.social]
     a-email = ""
@@ -153,3 +155,7 @@ css = ["css/tailwind.css", "css/style.css"]
 #
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
