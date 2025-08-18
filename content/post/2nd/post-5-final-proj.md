@@ -47,7 +47,7 @@ categories: ["Final Project", "2nd"]
 
 - 팝업스토어 예약 오픈 시간에 순간적으로 급증하는 트래픽을 견디기 위한 유연하고 확장성 높은 아키텍처를 구성한 시스템입니다.
 - 자신과 유사한 특성을 가진 사람의 카드 결제 데이터을 기반으로 다른 팝업 스토어를 추천받는 추천 시스템이 구성되어 있습니다.
-- 자세한 내용은 [Final Project 서쪽솜솜: 팝업 스토어 예약 시스템](https://ddwu-aws-cloud-club.github.io/post/post-6-final-proj-west-somsom/)에서 확인해주세요.
+- 자세한 내용은 [Final Project 서쪽솜솜: 팝업 스토어 예약 시스템](https://ddwu-aws-cloud-club.github.io/post/2nd/post-6-final-proj-west-somsom/)에서 확인해주세요.
 
 ## 솜솜파티: 축제 예약 플랫폼
 
@@ -55,7 +55,7 @@ categories: ["Final Project", "2nd"]
 
 - 강력한 부하를 감당할 수 있으며 안정성이 높아 견고한 아키텍처를 구성한 시스템입니다.
 - 대규모 데이터 처리가 가능하고 정확한 메시지 송수신이 가능한 실시간 채팅 시스템을 함께 구현했습니다.
-- 자세한 내용은 [Final Project 솜솜파티: 축제 예약 플랫폼](https://ddwu-aws-cloud-club.github.io/post/post-6-final-proj-party-somsom/)에서 확인해주세요.
+- 자세한 내용은 [Final Project 솜솜파티: 축제 예약 플랫폼](https://ddwu-aws-cloud-club.github.io/post/2nd/post-6-final-proj-party-somsom/)에서 확인해주세요.
 
 ---
 

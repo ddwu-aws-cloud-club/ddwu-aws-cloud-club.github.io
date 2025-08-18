@@ -96,7 +96,7 @@ description: "main page"
 
 ### [ACC 1st](https://ddwu-aws-cloud-club.github.io/categories/1st/)
 
-### [ACC 2nd](https://ddwu-aws-cloud-club.github.io/categories/1st/)
+### [ACC 2nd](https://ddwu-aws-cloud-club.github.io/categories/2nd/)
 
 ---
 
