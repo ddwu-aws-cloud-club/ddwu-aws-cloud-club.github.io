@@ -3,7 +3,7 @@ title: "ML Camp"
 date: "2024-01-06"
 author: "Yubin Kim"
 tags: ["ML", "SageMaker", "Bedrock", "Rekognition", "Textract"]
-categories: ["Camp"]
+categories: ["Camp", "1st"]
 ---
 
 > 2023.01.06 / 15:00 - 18:00   

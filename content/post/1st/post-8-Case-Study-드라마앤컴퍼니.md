@@ -3,7 +3,7 @@ title: "Case Study: 드라마앤컴퍼니"
 date: "2024-01-20"
 author: "정채원, 신이현, 류혜수, 홍성주 (✍️ 유빈)"
 tags: ["드라마앤컴퍼니", "ELB", "Auto Scaling"]
-categories: ["Case Study"]
+categories: ["Case Study", "1st"]
 ---
 
 > 2023.01.20 / 18:00 - 19:30   

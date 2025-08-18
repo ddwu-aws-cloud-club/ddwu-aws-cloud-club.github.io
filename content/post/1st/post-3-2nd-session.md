@@ -3,7 +3,7 @@ title: "2nd Session: Core Session"
 date: "2023-12-23"
 author: "Yubin Kim"
 tags: ["IaC", "Automating Architecture"]
-categories: ["Core Session"]
+categories: ["Core Session", "1st"]
 ---
 
 > 2023.12.23 / 18:00 - 20:00 진행

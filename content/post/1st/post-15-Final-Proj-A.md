@@ -3,7 +3,7 @@ title: "Final Project A: 콘서트 예약 프로그램"
 date: "2024-04-14"
 author: "이어진, 정채원, 주현정, 홍성주 (✍️ 유빈)"
 tags: ["프로젝트"]
-categories: ["Final Project"]
+categories: ["Final Project", "1st"]
 ---
 
 ## 1️⃣ 프로젝트 아키텍처

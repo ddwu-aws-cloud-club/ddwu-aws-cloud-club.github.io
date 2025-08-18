@@ -3,7 +3,7 @@ title: "6th Session: Final Project"
 date: "2024-02-17"
 author: "Yubin Kim"
 tags: ["프로젝트"]
-categories: ["Open Session"]
+categories: ["Open Session", "1st"]
 ---
 
 > 2023.02.17 / 18:00 - 19:30   

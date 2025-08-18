@@ -3,7 +3,7 @@ title: "3rd Session: Case Study"
 date: "2024-01-20"
 author: "Yubin Kim"
 tags: ["Autodesk", "드라마앤컴퍼니", "Lambda Architecture", "ELB", "Auto Scaling"]
-categories: ["Case Study"]
+categories: ["Case Study", "1st"]
 ---
 
 > 2023.01.20 / 18:00 - 19:30   

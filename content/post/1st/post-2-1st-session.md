@@ -3,7 +3,7 @@ title: "1st Session: warming up PT"
 date: "2023-12-02"
 author: "Yubin Kim"
 tags: [""]
-categories: ["Warming UP Session"]
+categories: ["Warming UP Session", "1st"]
 ---
 
 > 2023.12.02 / 18:00 - 20:00 진행

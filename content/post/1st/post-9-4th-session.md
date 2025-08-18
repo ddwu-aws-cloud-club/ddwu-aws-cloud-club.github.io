@@ -3,7 +3,7 @@ title: "4th Session: Core Session"
 date: "2024-01-28"
 author: "Yubin Kim"
 tags: ["Monolithic to MSA", "MSA"]
-categories: ["Core Session"]
+categories: ["Core Session", "1st"]
 ---
 
 > 2023.01.28 / 10:00 - 11:30   

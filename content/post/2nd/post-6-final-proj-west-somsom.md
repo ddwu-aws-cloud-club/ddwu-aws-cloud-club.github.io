@@ -3,7 +3,7 @@ title: "Final Project 서쪽솜솜: 팝업 스토어 예약 시스템"
 date: "2025-01-04"
 author: "김시은, 권민정, 조정원, 최가람, 하서정(✍️ Minjeong Kwon)"
 tags: ["프로젝트"]
-categories: ["Final Project"]
+categories: ["Final Project", "2nd"]
 ---
 
 > **DDWU ACC 2nd Final Project Team 1 west-somsom (서쪽솜솜)**

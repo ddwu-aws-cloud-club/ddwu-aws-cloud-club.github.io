@@ -3,7 +3,7 @@ title: "Final Project B: 모의 수강신청 프로그램"
 date: "2024-04-14"
 author: "Yubin Kim"
 tags: ["프로젝트"]
-categories: ["Final Project"]
+categories: ["Final Project", "1st"]
 ---
 
 ## B팀 프로젝트 소개

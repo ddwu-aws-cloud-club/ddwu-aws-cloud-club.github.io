@@ -3,7 +3,7 @@ title: "8th Session: Final Project -  아키텍처 기획 및 유저 시나리�
 date: "2024-03-16"
 author: "Yubin Kim"
 tags: ["프로젝트"]
-categories: ["Open Session"]
+categories: ["Open Session", "1st"]
 ---
 
 > 2023.03.16 / 18:00 - 19:30   

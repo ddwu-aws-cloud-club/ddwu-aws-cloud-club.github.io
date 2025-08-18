@@ -17,7 +17,7 @@ hasCJKLanguage = true     # has chinese/japanese/korean
 disqusShortname = ""      # disqus_shortname
 
 [pagination]
-pagerSize = 10
+pagerSize = 5
 
 [params.author]
 name = "DDWU AWS Cloud Club"
@@ -53,7 +53,12 @@ name = "DDWU AWS Cloud Club"
   url = "/categories/"
 
 [params]
-css = ["css/tailwind.css", "css/style.css"]
+  favicon = "favicon/favicon.ico"
+  favicon16x16 = "favicon/favicon-16x16.png"
+  favicon32x32 = "favicon/favicon-32x32.png"
+  apple_touch_icon = "favicon/apple-touch-icon.png"
+
+  css = ["css/tailwind.css", "css/style.css"]
 
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
@@ -142,6 +147,15 @@ css = ["css/tailwind.css", "css/style.css"]
     d-facebook = ""
     e-linkedin = ""
     g-github = ""
+
+  [params.profileMode]
+    enabled = false
+  
+  [params.homeInfoParams]
+    enabled = false
+
+  [params.cover]
+    enabled = false
 	
 # Uncomment these options to make hugo output .md files.
 #[mediaTypes]

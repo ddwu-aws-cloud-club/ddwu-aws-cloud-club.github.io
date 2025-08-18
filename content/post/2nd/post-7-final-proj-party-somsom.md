@@ -3,7 +3,7 @@ title: "Final Project 솜솜파티: 축제 예약 플랫폼"
 date: "2025-01-04"
 author: "황지민, 이가연, 김민경, 이승연, 오은아(✍️ Minjeong Kwon)"
 tags: ["프로젝트"]
-categories: ["Final Project"]
+categories: ["Final Project", "2nd"]
 ---
 
 # 서비스 소개

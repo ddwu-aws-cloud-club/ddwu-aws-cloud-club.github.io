@@ -3,7 +3,7 @@ title: "Infrastructure Camp"
 date: "2023-12-30"
 author: "Yubin Kim"
 tags: ["Infrastructure", "IAM", "VPC", "S3"]
-categories: ["Camp"]
+categories: ["Camp", "1st"]
 ---
 
 > 2023.12.30 / 18:00 - 19:30   

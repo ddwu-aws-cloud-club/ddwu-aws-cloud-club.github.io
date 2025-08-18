@@ -3,7 +3,7 @@ title: "Core session"
 date: "2024-08-04"
 author: "Minjeong Kwon"
 tags: [""]
-categories: ["Core Session"]
+categories: ["Core Session", "2nd"]
 ---
 
 > 2024.07.14 - 2024.08.04 진행

@@ -3,7 +3,7 @@ title: "Case Study"
 date: "2024-08-27"
 author: "Minjeong Kwon"
 tags: ["KTOWN4U", "야나두"]
-categories: ["Case Study"]
+categories: ["Case Study", "2nd"]
 ---
 
 > 2024.08.11 - 2024.08.27 진행

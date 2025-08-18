@@ -3,7 +3,7 @@ title: "OT"
 date: "2023-11-22"
 author: "Yubin Kim"
 tags: [""]
-categories: ["OT"]
+categories: ["OT", "1st"]
 ---
 
 ## Session

@@ -3,7 +3,7 @@ title: "9th Session: Final Project -  최종 프로젝트 발표"
 date: "2024-04-14"
 author: "Yubin Kim"
 tags: ["프로젝트"]
-categories: ["Final Project"]
+categories: ["Final Project", "1st"]
 ---
 
 > 2023.04.14 / 14:00 - 16:00   

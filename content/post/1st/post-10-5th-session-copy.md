@@ -3,7 +3,7 @@ title: "5th Session: Open Session"
 date: "2024-02-03"
 author: "발표: 이어진 (✍️ 유빈)"
 tags: ["배포전략", "무중단 배포"]
-categories: ["Open Session"]
+categories: ["Open Session", "1st"]
 ---
 
 > 2023.02.03 / 18:00 - 19:30   

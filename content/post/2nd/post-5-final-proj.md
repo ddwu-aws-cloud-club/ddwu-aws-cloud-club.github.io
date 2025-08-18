@@ -3,7 +3,7 @@ title: "Final Project -  최종 프로젝트 발표"
 date: "2025-01-04"
 author: "Minjeong Kwon"
 tags: ["프로젝트"]
-categories: ["Final Project"]
+categories: ["Final Project", "2nd"]
 ---
 
 > 2024.9.10 - 2025.01.04 진행

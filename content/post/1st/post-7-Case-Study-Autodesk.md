@@ -3,7 +3,7 @@ title: "Case Study: Autodesk"
 date: "2024-01-20"
 author: "김유빈, 이어진, 유희진, 주현정, 박세은"
 tags: ["Autodesk", "Lambda Architecture"]
-categories: ["Case Study"]
+categories: ["Case Study", "1st"]
 ---
 
 # Autodesk의 빅데이터 처리

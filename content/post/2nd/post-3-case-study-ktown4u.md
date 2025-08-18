@@ -3,7 +3,7 @@ title: "Case Study: KTOWN4U"
 date: "2024-08-27"
 author: "권민정, 김시은, 이가연, 황지민 (✍️ Minjeong Kwon)"
 tags: ["KTOWN4U"]
-categories: ["Case Study"]
+categories: ["Case Study", "2nd"]
 ---
 
 # KTOWN4U Case Study: 글로벌 확장성과 개인화 서비스 최적화

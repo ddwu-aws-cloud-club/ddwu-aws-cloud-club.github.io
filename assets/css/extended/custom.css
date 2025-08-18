@@ -1,0 +1,18 @@
+/* home info 타이틀, 내용이 비어있을 때 빈 공간 제거 */
+.main .home-info h1,
+.main .home-info > div:not(.home-social-icons) {
+  display: none !important;
+}
+
+/* 남은 home-info에 불필요한 여백까지 완전히 없애기 */
+.main .home-info {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  text-align: center; /* socialIcons 중앙정렬용(선택) */
+}
+
+/* 필요시 home-social-icons도 더 조정 가능 */
+.main .home-social-icons {
+  margin-top: 0 !important;
+}

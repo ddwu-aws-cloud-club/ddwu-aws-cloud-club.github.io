@@ -3,7 +3,7 @@ title: "Case Study: 야나두"
 date: "2024-08-27"
 author: "김민경, 오은아, 이승연, 최가람, 하서정 (✍️ Minjeong Kwon)"
 tags: ["야나두"]
-categories: ["Case Study"]
+categories: ["Case Study", "2nd"]
 ---
 
 # AWS Case Study : 야나두
