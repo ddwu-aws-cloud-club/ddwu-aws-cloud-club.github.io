@@ -34,12 +34,12 @@ jitsi (온라인)
 - **팀 2: 드라마앤컴퍼니의 인프라 아키텍처**
 
 ### 팀 1: Autodesk의 빅데이터 처리
-Autodesk에서 람다 아키텍처를 바탕으로 람다, hive, s3들을 사용하여 어떤 아키텍처를 구축한 것인지 발표했어요. 자세한 내용은 [다음 페이지](https://ddwu-aws-cloud-club.github.io/post/post-7-case-study-autodesk/)에서 확인해주세요 
+Autodesk에서 람다 아키텍처를 바탕으로 람다, hive, s3들을 사용하여 어떤 아키텍처를 구축한 것인지 발표했어요. 자세한 내용은 [다음 페이지](https://ddwu-aws-cloud-club.github.io/post/1st/post-7-case-study-autodesk/)에서 확인해주세요 
 ![5](/session_3/5.png "5")
 
-드라마앤컴퍼니의 aws 클라우드 도입 이유와 함께 Amazon RDS for Aurora 로 데이터베이스를 마이그레이션 한 사례 등을 발표했어요. 자세한 내용은 [다음 페이지](https://ddwu-aws-cloud-club.github.io/post/post-8-case-study-드라마앤컴퍼니/)에서 확인해주세요
+드라마앤컴퍼니의 aws 클라우드 도입 이유와 함께 Amazon RDS for Aurora 로 데이터베이스를 마이그레이션 한 사례 등을 발표했어요. 자세한 내용은 [다음 페이지](https://ddwu-aws-cloud-club.github.io/post/1st/post-8-case-study-드라마앤컴퍼니/)에서 확인해주세요
 ![6](/session_3/6.png "6") | ![7](/session_3/7.png "7") | ![8](/session_3/8.png "8")
 ---|---|---|
 
 
-기업의 복잡한 아키텍처에 대해 함꼐 발표와 질문을 통해 이해할 수 있는 시간이었어요. 2주간 모든 팀원들이 아키텍처를 조사하기 위해 많은 노력을 하고 함께 토론했어요.
+기업의 복잡한 아키텍처에 대해 함께 발표와 질문을 통해 이해할 수 있는 시간이었어요. 2주간 모든 팀원들이 아키텍처를 조사하기 위해 많은 노력을 하고 함께 토론했어요.
