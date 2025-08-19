@@ -13,14 +13,14 @@ jitsi (온라인)
 - 과제 발표
 
 모든 멤버들이 저번주에 함께 토론한 Case Study에 대해 상대 팀의 Case Study 관련 질문을 주고 받거나, 핵심적인 아키텍처와 관련된 추가 설명을 발표했어요.
-![1](/session_4/1.png "1") | ![2](/session_4/2.png "2")
+![1](/1st/session_4/1.png "1") | ![2](/1st/session_4/2.png "2")
 ---|---|
 
-![1](/session_4/3.png "1") | ![2](/session_4/4.png "2")
+![1](/1st/session_4/3.png "1") | ![2](/1st/session_4/4.png "2")
 ---|---|
 
-![1](/session_4/5.png "1")
-![1](/session_4/6.png "1") | ![2](/session_4/7.png "2")
+![1](/1st/session_4/5.png "1")
+![1](/1st/session_4/6.png "1") | ![2](/1st/session_4/7.png "2")
 ---|---|
 
 
@@ -37,5 +37,5 @@ AWS의 자동화와 관련된 `AWS Elastic Container Service` `AWS Elastic Conta
 - Decomposing monoliths 진행 과정을 세세히 살펴보며, Monolithic application을 MSA로 마이그레이션 하는 과정을 살펴보았어요.
 - LoadBalancer, ECS, ECR 등을 활용한 최종적인 MSA를 구성하고 이를 실습을 통해 직접 구현해보았어요.
 
-![1](/session_4/8.jpeg "1") | ![2](/session_4/9.jpeg "2")
+![1](/1st/session_4/8.jpeg "1") | ![2](/1st/session_4/9.jpeg "2")
 ---|---|

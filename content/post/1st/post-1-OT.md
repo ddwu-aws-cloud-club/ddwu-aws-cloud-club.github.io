@@ -9,4 +9,4 @@ categories: ["OT", "1st"]
 ## Session
 
 DDWU 1st Crew의 OT를 진행하였습니다.
-![OT_1](/OT_1.jpeg "OT_1")
+![OT_1](/1st/OT_1.jpeg "OT_1")

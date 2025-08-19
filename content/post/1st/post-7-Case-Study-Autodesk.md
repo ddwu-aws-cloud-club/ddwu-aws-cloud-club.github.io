@@ -23,7 +23,7 @@ categories: ["Case Study", "1st"]
 
 람다 아키텍처는 스피드 레이어 + 배치 레이어의 조합으로 이런 대용량 데이터에도 **어느 정도의 실시간 분석을 지원**해줍니다.
 
-![img](/case_autodesk/1.png "img")
+![img](/1st/case_autodesk/1.png "img")
 
 모든 데이터는 반드시 배치 레이어에서 처리합니다. 과거의 데이터를 장기적인 스토리지에 축적하고, 여러 번이고 다시 집계할 수 있게 합니다. 배치 레이어는 대규모 배치 처리를 실행할 수 있는 반면, 1회 처리에는 긴 시간이 걸립니다.
 
@@ -40,7 +40,7 @@ categories: ["Case Study", "1st"]
 
 ## 레이어 정리
 
-![img](/case_autodesk/img1.daumcdn.png)
+![img](/1st/case_autodesk/img1.daumcdn.png)
 
 **배치레이어**
 
@@ -77,14 +77,14 @@ categories: ["Case Study", "1st"]
 
 결론적으로, 람다 아키텍처의 솔루션으로 사용될 수 있는 조합은 매우 다양합니다. 아래는 다른 솔루션 조합의 예시입니다.
 
-![img](/case_autodesk/img1.daumcdn-3.png)
+![img](/1st/case_autodesk/img1.daumcdn-3.png)
 
-![img](/case_autodesk/img1.daumcdn-4.png)
+![img](/1st/case_autodesk/img1.daumcdn-4.png)
 
-![img](/case_autodesk/img1.daumcdn-2.png)
+![img](/1st/case_autodesk/img1.daumcdn-2.png)
 AutoDesk는 공개한 아키텍처에서 일부 내용을 비공개 혹은 표현하지 않았습니다. 따라서 작성한 아키텍처 솔루션은 일부 아키텍처로만 추측한 내용이므로 틀린 내용이 있을 수 있습니다.
 
-![img](/case_autodesk/Architecture_diagram.png)
+![img](/1st/case_autodesk/Architecture_diagram.png)
 
 Autodesk의 실제 아키텍처
 
@@ -136,7 +136,7 @@ Optimal Batch Converter (AWS Glue와 같은 AWS 서비스나 다른 서드파티
 
 이를 더 쉽게 설명하면, 일반적인 NoSQL은 키-밸류 스토어의 개념을 가지고 있습니다.
 
-![img](/case_autodesk/img1.daumcdn-1.png)
+![img](/1st/case_autodesk/img1.daumcdn-1.png)
 
 일별 배치로 생성된 이벤트 데이터 테이블
 
@@ -152,7 +152,7 @@ Optimal Batch Converter (AWS Glue와 같은 AWS 서비스나 다른 서드파티
 
 → 이 때문에 람다 아키텍쳐를 단순화한 '카파 아키텍쳐(Kappa architercutre)'를 선택하기도 합니다.
 
-![img](/case_autodesk/img1.daumcdn.jpg)
+![img](/1st/case_autodesk/img1.daumcdn.jpg)
 
 # 1. Near Real Time Data Stream 
 > 실시간에 가까운 데이터 스트림 (✍️ 세은 어진)
@@ -172,7 +172,7 @@ Optimal Batch Converter (AWS Glue와 같은 AWS 서비스나 다른 서드파티
 
 ### 아키텍처
 
-![img](/case_autodesk/6.57.06_PM.png)
+![img](/1st/case_autodesk/6.57.06_PM.png)
 
 **최대 10배 이상으로 급증하는 수신 데이터를 처리할 수 있도록 기존 시스템을 개선 + 데이터 처리 속도와 가용성을 1시간으로 개선하고 처리 비용을 70% 줄이기**
 
@@ -186,7 +186,7 @@ Optimal Batch Converter (AWS Glue와 같은 AWS 서비스나 다른 서드파티
 
  b . 데이터 레이크는 원시 데이터를 그대로 저장해두는 공간으로, 데이터 웨어하우스와는 달리 구조화하지 않은 상태로 데이터를 저장합니다.
 
-![img](/case_autodesk/Untitled.png)
+![img](/1st/case_autodesk/Untitled.png)
 
 **2 . SNS** **알림**: Amazon SNS를 통해 원시 SNS 알림이 발송됩니다.
 
@@ -194,7 +194,7 @@ a . 원시 데이터가 S3에 저장되면, Amazon SNS를 통해 알림이 발�
 
 b . SNS는 분산 애플리케이션, 마이크로서비스, 서버리스 애플리케이션 등에 대한 메시지 전달을 담당합니다.
 
-![img](/case_autodesk/Untitled-1.png)
+![img](/1st/case_autodesk/Untitled-1.png)
 
 **3 . 데이터 정제 및 보강**: Lambda가 데이터 정제와 보강을 담당합니다.
 
@@ -213,9 +213,9 @@ d . Failed S3 Location에 저장된 데이터들은 나중에 다시 검토하�
 
 
 
-![img](/case_autodesk/Untitled-2.png)
+![img](/1st/case_autodesk/Untitled-2.png)
 
-![img](/case_autodesk/Untitled-3.png)
+![img](/1st/case_autodesk/Untitled-3.png)
 
   **4 .** **Update Metadata** 
 
@@ -231,7 +231,7 @@ d . Failed S3 Location에 저장된 데이터들은 나중에 다시 검토하�
 
 
 
-![img](/case_autodesk/Untitled-4.png)
+![img](/1st/case_autodesk/Untitled-4.png)
 
   **5 . 모니터링 및 경고**: 전체 시스템은 DataDog를 통해 모니터링되며, 이상 징후나 오류에 대해 경고해줍니다.
 
@@ -239,7 +239,7 @@ d . Failed S3 Location에 저장된 데이터들은 나중에 다시 검토하�
 
  b. 이를 통해 시스템의 정상 작동 상태를 유지하고, 문제가 발생하면 신속하게 대응할 수 있습니다.
 
-![img](/case_autodesk/Untitled-5.png)
+![img](/1st/case_autodesk/Untitled-5.png)
 
   **6 . 로그 처리**: 처리된 데이터 로그는 'Clean Logs’ S3에 저장되고, 문제가 있는 로그는 'Dirty Logs'로 분류되어 별도로 관리됩니다.
 
@@ -250,9 +250,9 @@ a .정제된 데이터는 'clean logs'로, 정제되지 못한 데이터는 'dir
 
 
 
-![img](/case_autodesk/Untitled-6.png)
+![img](/1st/case_autodesk/Untitled-6.png)
 
-![img](/case_autodesk/Untitled-7.png)
+![img](/1st/case_autodesk/Untitled-7.png)
 
 ## Lambda
 
@@ -328,7 +328,7 @@ a .정제된 데이터는 'clean logs'로, 정제되지 못한 데이터는 'dir
 6. Hive (Hadoop + Hive) 
 7. 심화 내용 + 생각해 본 내용
 
-![img](/case_autodesk/Screenshot_2024-01-11_at_6.57.36_PM.png)
+![img](/1st/case_autodesk/Screenshot_2024-01-11_at_6.57.36_PM.png)
 
 ## ETL
 
@@ -421,13 +421,13 @@ DynamoDB는 하단 람다와 함께 적절한 사이즈의 파케이(= 하둡에
 
 ### Serverless Batch Processing
 
-![img](/case_autodesk/image_bat.png)
+![img](/1st/case_autodesk/image_bat.png)
 
 - `S3`에 어떤 오브젝트가 들어왔을 경우 `Lambda Splitter`가 Mapper에 작업을 분배합니다.
 - Mapper들은 작업이 끝난 후 `DynamoDB`에 저장됩니다.
 - `Lambda Reducer`가 `S3`로 다시 아웃풋합니다.
 
-![img](/case_autodesk/2.30.23_PM.png)
+![img](/1st/case_autodesk/2.30.23_PM.png)
 
 ### Pull Event Type(Model)
 
@@ -511,7 +511,7 @@ Hive는 배치 처리 툴이라기 보다는 데이터 집계를 위한 쿼리 �
 - 또한, **SQL과 유사한 인터페이스로 Apache Tez 또는 MapReduce를 사용하여 대규모 데이터 세트를 쿼리할 수 있습니다.**
     - 맵리듀스 프로그래밍 모델은 Map과 Reduce라는 크게 2가지 단계로 데이터를 처리합니다. 맵은 입력 파일을 한 줄씩 읽어 데이터를 `변형(Transformation)`하며 리듀스는 맵의 결과 데이터를 `집계(Aggregation)` 합니다.
         
-        ![img](/case_autodesk/Untitled-8.png)
+        ![img](/1st/case_autodesk/Untitled-8.png)
         
     
     [하둡 프로그래밍 - MapReduce](https://velog.io/@spdlqjfire/하둡-프로그래밍-MapReduce)

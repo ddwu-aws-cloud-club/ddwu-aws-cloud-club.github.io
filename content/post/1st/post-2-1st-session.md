@@ -44,7 +44,7 @@ categories: ["Warming UP Session", "1st"]
 
 ## Picture
 
-![sess_1](/sess_1.png "sess_1")
-![sess_2](/sess_2.png "sess_2")
+![sess_1](/1st/sess_1.png "sess_1")
+![sess_2](/1st/sess_2.png "sess_2")
 오늘 오프라인 참여가 어려웠던 두 멤버는 온라인으로 함께하였습니다!
-![sess_3](/sess_3.png "sess_3")
+![sess_3](/1st/sess_3.png "sess_3")

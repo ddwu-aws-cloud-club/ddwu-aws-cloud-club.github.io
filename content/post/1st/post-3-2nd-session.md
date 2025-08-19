@@ -30,4 +30,4 @@ AWS의 자동화와 관련된 `AWS CloudFormation` `AWS Quick Starts` `AWS Syste
 ## Picture
 
 오늘의 세션은 온라인으로 진행되었어요.
-![2_sess_1](/2_sess_1.png "2_sess_1")
+![2_sess_1](/1st/2_sess_1.png "2_sess_1")

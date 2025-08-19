@@ -1,6 +1,6 @@
 ---
-title: "DDWU ACC Blog"
-description: "main page"
+title: "DDWU ACC"
+description: "DDWU AWS Cloud Club Blog"
 ---
 
 # ☁️ DDWU AWS Cloud Club
@@ -12,6 +12,8 @@ description: "main page"
 ---
 
 ## 📢 DDWU ACC RECRUITING
+
+> https://docs.google.com/forms/d/e/1FAIpQLSfxMGS6jnZSmoCg_QiJhs67KrBycsVHFI8AR_gssNGioGB9-g/viewform?usp=header
 
 **동덕여자대학교 AWS Cloud Club 3기 멤버를 모집합니다!** <br>
 클라우드 기술을 통해 함께 성장하고 싶은 여러분의 많은 관심과 지원을 기다립니다.
@@ -85,21 +87,27 @@ description: "main page"
 * OT(9/3)는 반드시 참석해야 하는 **필수 참석 행사**입니다.
 * 정기 세션 및 필수 참석 행사에 참여가 어려울 경우, 선발에 불이익이 있을 수 있습니다.
 
-### 문의
+### CONTECT
 
-* 카카오톡:
-* gmail:
+* seplease@naver.com
 
 ---
 
-## 🌫️ 이전 기수 활동 보기
+<br>
+
+<div class="acc-nth">
+
+## 🌫️ 이전 기수 활동 🌫️
+
 
 ### [ACC 1st](https://ddwu-aws-cloud-club.github.io/categories/1st/)
 
 ### [ACC 2nd](https://ddwu-aws-cloud-club.github.io/categories/2nd/)
 
----
+</div>
 
 <br>
+
+---
 
 ## Post

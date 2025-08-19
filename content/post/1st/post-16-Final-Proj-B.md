@@ -54,7 +54,7 @@ categories: ["Final Project", "1st"]
             - was
             - db
     
-    ![Untitled](/final_b/Untitled.png)
+    ![Untitled](/1st/final_b/Untitled.png)
     
     ## 사용자가 1000명인 경우
     
@@ -96,13 +96,13 @@ categories: ["Final Project", "1st"]
 
 ## Infra
 최종 서비스 아키텍처는 다음과 같습니다.
-![최종 서비스 아키텍처](/final_b/TEAM_B.drawio_(1).png)
+![최종 서비스 아키텍처](/1st/final_b/TEAM_B.drawio_(1).png)
 
 ### CICD
 
-![Untitled1.png](/final_b/Untitled1.png)
+![Untitled1.png](/1st/final_b/Untitled1.png)
 
-![Untitled](/final_b/Untitled%201.png)
+![Untitled](/1st/final_b/Untitled%201.png)
 
 ### 사용 기술
 
@@ -127,7 +127,7 @@ WAF는 Access Control list를 정의하고, 탐지 Rule을 설정함으로써 �
 
 ### **아키텍처 구성**
 
-![제목 없는 다이어그램.drawio.png](/final_b/%25EC%25A0%259C%25EB%25AA%25A9_%25EC%2597%2586%25EB%258A%2594_%25EB%258B%25A4%25EC%259D%25B4%25EC%2596%25B4%25EA%25B7%25B8%25EB%259E%25A8.drawio.png)
+![제목 없는 다이어그램.drawio.png](/1st/final_b/%25EC%25A0%259C%25EB%25AA%25A9_%25EC%2597%2586%25EB%258A%2594_%25EB%258B%25A4%25EC%259D%25B4%25EC%2596%25B4%25EA%25B7%25B8%25EB%259E%25A8.drawio.png)
 
 > prometheus (:9090)
 > 
@@ -157,7 +157,7 @@ WAF는 Access Control list를 정의하고, 탐지 Rule을 설정함으로써 �
     
     </aside>
     
-    ![**HostOutOfMemory -** 메시지가 가는지 확인을 위해 우선 100% 미만으로 설정함](/final_b/Untitled%202.png)
+    ![**HostOutOfMemory -** 메시지가 가는지 확인을 위해 우선 100% 미만으로 설정함](/1st/final_b/Untitled%202.png)
     
     **HostOutOfMemory -** 메시지가 가는지 확인을 위해 우선 100% 미만으로 설정함
     
@@ -170,7 +170,7 @@ WAF는 Access Control list를 정의하고, 탐지 Rule을 설정함으로써 �
 - cpu, memory, network, Disk, File System 상태를 대쉬보드를 통해 모니터링할 수 있습니다.
 - 현재 Node Exporter로 was의 정보를 가져오며 이를 위해 Node Exporter Full 대쉬보드를 사용하였습니다.
     
-    ![Untitled](/final_b/Untitled%203.png)
+    ![Untitled](/1st/final_b/Untitled%203.png)
     
 
 ### **엔드 포인트**
@@ -191,7 +191,7 @@ WAF는 Access Control list를 정의하고, 탐지 Rule을 설정함으로써 �
 
 - 15000명이 15000번 요청한다.
 
-![request 별 반응 시간](/final_b/Untitled%204.png)
+![request 별 반응 시간](/1st/final_b/Untitled%204.png)
 
 request 별 반응 시간
 
@@ -212,7 +212,7 @@ request 별 반응 시간
 
 ### 📌 **어플리케이션 구성 -** 30개 선착순 이벤트(자리가 30개 있는 경우)시 100명이 요청했을 경우
 
-![image-4.png](/final_b/image-4.png)
+![image-4.png](/1st/final_b/image-4.png)
 
 **(1)** 100명의 유저가 수강신청을 진행합니다.
 
@@ -235,17 +235,17 @@ request 별 반응 시간
 
 ### Lock (Application)
 
-![Untitled](/final_b/Untitled%205.png)
+![Untitled](/1st/final_b/Untitled%205.png)
 
 avilableSeets이 40일 때
 
-![Untitled](/final_b/Untitled%206.png)
+![Untitled](/1st/final_b/Untitled%206.png)
 
 ### 수강 취소 부분 동시성 제어 (by named Lock)
 
-![Untitled](/final_b/Untitled%207.png)
+![Untitled](/1st/final_b/Untitled%207.png)
 
-![Untitled](/final_b/Untitled%208.png)
+![Untitled](/1st/final_b/Untitled%208.png)
 
 ### 다중 서버 세션 관리
 
@@ -266,23 +266,23 @@ avilableSeets이 40일 때
 
 *(이 코드는 SNS 사용을 기준으로 작성해둔 코드입니다)*
 
-![Untitled](/final_b/Untitled%209.png)
+![Untitled](/1st/final_b/Untitled%209.png)
 
 **RDS 접속 성공**
 
-![Untitled](/final_b/Untitled%2010.png)
+![Untitled](/1st/final_b/Untitled%2010.png)
 
 ### SES 생성
 
 - **계정 샌드박스 해제 필요** - 프로덕션 액세스 요청하기
     
-    ![Untitled](/final_b/Untitled%2011.png)
+    ![Untitled](/1st/final_b/Untitled%2011.png)
     
     샌드박스 상태에서는 **등록된 사용자**에 한에서만 이메일을 주고 받는 것이 가능합니다. 따라서 계정을 프로덕션 액세스가 가능하도록 AWS측에 요청해야 합니다.
     
 - **AWS에 프로덕션 액세스 요청**
     
-    ![Untitled](/final_b/Untitled%2012.png)
+    ![Untitled](/1st/final_b/Untitled%2012.png)
     
     1차적으로 요청을 하였으나 더 세부적인 정보가 필요하다는 답변이 왔고, 좀 더 디테일하게 2차적으로 요청을 했습니다. (아직 승인 대기 중인 상태)
     
@@ -303,7 +303,7 @@ avilableSeets이 40일 때
 
 현재 액션에서 사용하는 방식은 Docker Hub 의 public Repository에 도커 이미지를 업로드하고 있기 때문에, public에서의 보안 문제가 발생할 수 있습니다. 이에 Terraform 을 통한 CICD 파이프라인을 개선한다면 보다 3Tier에 적합하도록 개선할 수 있을것으로 보입니다.
 
-![예상 아키텍처](/final_b/img1.daumcdn.png)
+![예상 아키텍처](/1st/final_b/img1.daumcdn.png)
 출처: [[CICD] Terraform을 통한 AWS 3 Tier 구성 및 CI/CD 파이프라인 배포 #1 - 아키텍처 및 CICD 흐름 소개](https://nyyang.tistory.com/86)
 
 ### **Bastion Host 사용 시 이슈 (pain point)**
