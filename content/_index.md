@@ -13,10 +13,11 @@ description: "DDWU AWS Cloud Club Blog"
 
 ## 🌫️ 이전 기수 활동 🌫️
 
-
 ### [ACC 1st](https://ddwu-aws-cloud-club.github.io/categories/1st/)
 
 ### [ACC 2nd](https://ddwu-aws-cloud-club.github.io/categories/2nd/)
+
+### [ACC 3rd](https://ddwu-aws-cloud-club.github.io/categories/3rd/)
 
 </div>
 
